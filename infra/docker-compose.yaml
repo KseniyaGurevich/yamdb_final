@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: kurvinkl/api_yamdb:v9.8.2022
+    image: kurvinkl/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/api_yamdb/static/
